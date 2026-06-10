@@ -1,95 +1,100 @@
 # GridSense
-GridSense is a wearable smart knee brace that combines flex and piezoelectric sensors with ESP32 microcontrollers to monitor knee movement and impact events in real time. The system collects, processes, and stores data remotely, providing quantitative information for biomechanical analysis and injury prevention.
+
+GridSense is a wearable smart knee brace designed to monitor knee flexion and detect impact events during physical activity. The system combines flex sensors, piezoelectric sensors, and ESP32 microcontrollers to acquire, process, and transmit real-time biomechanical data for movement analysis and injury prevention.
 
 ## Features
-- 4 flex sensors
-- 5 piezoelectric sensors
+
+- 4 flex sensors for knee movement monitoring
+- 5 piezoelectric sensors for impact detection
 - 2 ESP32 microcontrollers
-- Real-time monitoring
+- Real-time data acquisition
+- Wi-Fi communication
 - Google Sheets integration
-- Impact detection
-- Movement analysis
+- Impact classification
+- Movement analysis and monitoring
 
 ## Team
+
 - Luis Manuel Flores Navarrete
 - Elizabeth Amigón Domínguez
 
 ## Advisor
+
 - Hugo Gustavo González Hernández
 
-![banner-GridSense](<img width="1600" height="1200" alt="rodillera_sensores" src="https://github.com/user-attachments/assets/0446cd73-05a4-498d-92a5-5a39fbe4f55e" />)
+## Project Overview
 
-![GitHub last commit](https://img.shields.io/github/last-commit/AlanS1N/Rescue-Bot-FJ2026--Earthquakes?style=for-the-badge)
+GridSense was developed as a wearable monitoring system capable of measuring knee flexion and detecting impacts during physical activity. The prototype integrates four flex sensors positioned around the knee joint and five piezoelectric sensors distributed throughout the knee brace.
 
- Table of Contents
+The acquired data is processed by two ESP32 microcontrollers and transmitted wirelessly to Google Sheets, where measurements can be visualized and analyzed in real time.
 
-- [Project Overview](#project-overview)
-- [Screenshots and Progress](#screenshots-and-progress)
-- [Circuit Connections](#circuit-connections)
-- [Materials](#materials)
-- [Future Goals](#future-goals)
+The main objective of the project is to provide quantitative information about knee movement and impact events that may contribute to injury prevention, biomechanical analysis, and future sports monitoring applications.
 
 ---
 
-# Project Overview
+## Prototype
+<img width="500" height="600" alt="Prototipo_final" src="https://github.com/user-attachments/assets/44cbdc75-9696-4833-aa47-3a3bfc552cb7" />
 
-This project focuses on the analysis of structural damages and failures caused by disasters (earthquakes, landslides, etc.) to identify operational needs for search and rescue in high-risk zones. Based on these findings, we designed and built a terrestrial mobile robot that _will serve both as a machine_ for entering and exploring without endangering first responders, _and as a tool to diagnose estructural damages_ using artificial computer vision.
+---
 
-The system **will be** validated in a simulated disaster scenario to evaluate technical performance, exploration efficiency, and its utility in supporting rescue missions and structural diagnostics.
+## Circuit Connections
 
-📜 (WIP) The paper developed alongside the documentation in Github can be viewwed <a href="https://www.overleaf.com/read/qfjzchcjjjqq#3e95bf">by clicking here.</a>
+### Flex Sensors
+<img width="700" height="400" alt="flex_esp32" src="https://github.com/user-attachments/assets/566e5422-63fd-4570-b4e4-f5f71186dded" />
 
-**Key Features:**
-  1. Teleoperated movement.
-  2. Video transmission through RF.
-  3. Camara movement throguh head tracking.
-  4. Trained algorithm to detect and diagnose structural damages.
-  5. Rocker bogie suspension.
+### Piezoelectric Sensors
+<img width="700" height="400" alt="piezos_esp32" src="https://github.com/user-attachments/assets/62fd697a-8c49-4f3c-b31a-6535f29c76cd" />
 
+---
 
-# Screenshots and Progress
+## Technologies Used
 
-<table>
-  <tr>
-    <td>
-      <img width="736" height="1600" alt="Prototipo_final" src="https://github.com/user-attachments/assets/9dc26bf6-3d8a-413f-907e-8dd251c78a0c" />
-</table>
+- ESP32
+- Arduino IDE
+- Flex Sensors
+- Piezoelectric Sensors
+- Wi-Fi Communication
+- Google Sheets
+- C++
 
-👉 [Click here to see development logs and check out the current progress](./.docs/progress.md)
+---
 
-# Circuit Connections
-The complete circuit diagram is shown below:
+## Experimental Results
 
-<img width="1045" height="965" alt="Captura desde 2026-06-09 13-00-33" src="https://github.com/user-attachments/assets/50d19934-df45-4401-9e7f-ec7f88c1c012" />
+The system was experimentally validated through:
 
-# Materials
+- Flex sensor calibration tests.
+- Controlled impact tests using known masses and drop heights.
+- Real-time monitoring tests.
+- Field tests with athletes performing movement and acceleration exercises.
 
-The material list used is listed below:
+### Real-Time Monitoring
+<img width="840" height="763" alt="Excel" src="https://github.com/user-attachments/assets/d1b54c2c-869c-471e-8c8f-0e83540b13f6" />
 
-|          Name           | Units |
-|-------------------------|-------|
-| JGB37-520B              |   6   |
-| Servomotor MG995        |   1   |
-| Servomotor MG996        |   1   |
-| H Bridge BTS7960 IBT_2  |   2   |
-| GY-BNO085               |   1   |
-| ESP32 DEVKIT 30 Pines   |   2   |
-| Jetson Nano Ori         |   1   |
-| FPV Set TS5823Pro       |   1   |
-| Logitech C920 Webcam    |   1   |
-| EMAX Transporter 2      |   1   |
-| FlySky FS-i6x Control   |   1   |
-| FlySky FS-iA6 Rx        |   1   |
-| PLA Filament            |   1   |
-| TPU Filament            |   1   |
-| Perf. phenolic board    |   2   |
-| Screws(various lengths) |  ±14  |
+---
 
-# Future Goals
-This project is planned to be worked on further more with other students at Tecnológico de Monterrey Campus Puebla, under the supervision of Dr. Roberto R. Flores Quintero.
+## Repository Contents
 
-Some current future goals involve:
-- 🧠 Deeper training and testing of the computer vision system.
-- 🔧 Redisign the structure to for increased stability and access to components
-- 🌡️ Adding thermal vision for detecting gases and possible life signals.
-- 🕶️ Developing a VR simulated environment.
+- Source code for flex sensor acquisition.
+- Source code for piezoelectric sensor acquisition.
+- Circuit diagrams.
+- Experimental results.
+- Project documentation.
+
+---
+
+## Future Improvements
+
+- Improve flex sensor stability and calibration.
+- Implement pattern recognition algorithms.
+- Develop injury risk alert systems.
+- Design a mobile application.
+- Improve cable management and electronics integration.
+- Develop a more compact and ergonomic version.
+- Incorporate machine learning for movement analysis.
+
+---
+
+## Institution
+
+Tecnológico de Monterrey – Campus Puebla
