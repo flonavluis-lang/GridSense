@@ -1,3 +1,11 @@
+<p align="center">
+  <img width="800" height="300" alt="rodillera_sensores" src="https://github.com/user-attachments/assets/5482916b-51fa-4c35-9f2b-732d1afd1791" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Work%20In%20Progress-orange?style=for-the-badge">
+</p>
+
 # GridSense
 
 GridSense is a wearable smart knee brace designed to monitor knee flexion and detect impact events during physical activity. The system combines flex sensors, piezoelectric sensors, and ESP32 microcontrollers to acquire, process, and transmit real-time biomechanical data for movement analysis and injury prevention.
@@ -69,7 +77,7 @@ The system was experimentally validated through:
 - Field tests with athletes performing movement and acceleration exercises.
 
 ### Real-Time Monitoring
-<img width="840" height="763" alt="Excel" src="https://github.com/user-attachments/assets/d1b54c2c-869c-471e-8c8f-0e83540b13f6" />
+<img width="730" height="650" alt="Excel" src="https://github.com/user-attachments/assets/d1b54c2c-869c-471e-8c8f-0e83540b13f6" />
 
 ---
 
@@ -77,10 +85,6 @@ The system was experimentally validated through:
 
 - Source code for flex sensor acquisition.
 - Source code for piezoelectric sensor acquisition.
-- Circuit diagrams.
-- Experimental results.
-- Project documentation.
-
 ---
 
 ## Future Improvements
