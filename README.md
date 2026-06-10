@@ -17,18 +17,9 @@ GridSense is a wearable smart knee brace that combines flex and piezoelectric se
 ## Advisor
 - Hugo Gustavo González Hernández
 
-Tecnológico de Monterrey
-# Design and Implementation of a Mobile Robot for Search, Rescue, and Structural Diagnostics in Disaster Scenarios
->[!WARNING]
->This is Work in Progress Project at the Tecnológico de Monterrey Campus Puebla.
-
-![banner-RescueBot](https://github.com/user-attachments/assets/00efe0d9-bb26-4452-a0ac-ce617ab37186)
-
-
+![banner-GridSense](<img width="1600" height="1200" alt="rodillera_sensores" src="https://github.com/user-attachments/assets/0446cd73-05a4-498d-92a5-5a39fbe4f55e" />)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/AlanS1N/Rescue-Bot-FJ2026--Earthquakes?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/AlanS1N/Rescue-Bot-FJ2026--Earthquakes?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/AlanS1N/Rescue-Bot-FJ2026--Earthquakes?style=for-the-badge)
 
  Table of Contents
 
