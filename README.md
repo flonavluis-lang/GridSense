@@ -4,6 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Work%20In%20Progress-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Platform-ESP32-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Sensors-4%20Flex%20%7C%205%20Piezo-green?style=for-the-badge">
 </p>
 
 # GridSense
@@ -37,6 +39,19 @@ GridSense was developed as a wearable monitoring system capable of measuring kne
 The acquired data is processed by two ESP32 microcontrollers and transmitted wirelessly to Google Sheets, where measurements can be visualized and analyzed in real time.
 
 The main objective of the project is to provide quantitative information about knee movement and impact events that may contribute to injury prevention, biomechanical analysis, and future sports monitoring applications.
+
+---
+
+## System Architecture
+
+The GridSense architecture is divided into four main stages:
+
+1. Data acquisition through flex and piezoelectric sensors.
+2. Signal processing using ESP32 microcontrollers.
+3. Wireless communication through Wi-Fi.
+4. Storage and visualization using Google Sheets.
+
+The architecture allows real-time monitoring of knee movement and impact events during physical activity.
 
 ---
 
@@ -76,8 +91,22 @@ The system was experimentally validated through:
 - Real-time monitoring tests.
 - Field tests with athletes performing movement and acceleration exercises.
 
+---
+
+## Demonstration Videos
+
+The following videos show the operation of GridSense during laboratory tests, calibration procedures, and real-world athletic activities.
+
+<p align="center">
+  <a href="https://drive.google.com/drive/folders/1wFj4c-nhccjZuyiRole_q-78-rgM8UrX?usp=sharing">
+    <img src="https://img.shields.io/badge/Watch%20Project%20Videos-Google%20Drive-red?style=for-the-badge&logo=google-drive">
+  </a>
+</p>
+
+---
+
 ### Real-Time Monitoring
-<img width="730" height="650" alt="Excel" src="https://github.com/user-attachments/assets/d1b54c2c-869c-471e-8c8f-0e83540b13f6" />
+<img width="840" height="438" alt="GoogleSheets" src="https://github.com/user-attachments/assets/8ce296b9-034b-4df5-845e-f335612ada0a" />
 
 ---
 
@@ -96,6 +125,11 @@ The system was experimentally validated through:
 - Improve cable management and electronics integration.
 - Develop a more compact and ergonomic version.
 - Incorporate machine learning for movement analysis.
+
+---
+
+## Documentation
+The complete technical report and project documentation are available within this repository.
 
 ---
 
