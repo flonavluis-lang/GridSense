@@ -135,4 +135,4 @@ The complete technical report and project documentation are available within thi
 
 ## Institution
 
-Tecnológico de Monterrey – Campus Puebla
+Instituto de Estudios Superiores de Monterrey – Campus Puebla
