@@ -129,7 +129,7 @@ The following videos show the operation of GridSense during laboratory tests, ca
 ---
 
 ## Documentation
-The complete technical report and project documentation are available within this repository.
+The complete technical report, methodology, experimental results, and project conclusions are available in the following document: [Reporte_Final_Jackpot.pdf](https://github.com/user-attachments/files/28885320/Reporte_Final_Jackpot.pdf).
 
 ---
 
